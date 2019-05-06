@@ -10,6 +10,7 @@ git init
 git add(.)
 git commit -m"zhushi"
 git remote add origin  https//github.com/user.name/...git
+git pull
 gitpush -u origin master
 
 

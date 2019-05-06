@@ -1,0 +1,13 @@
+git config --global user.name"yourname"
+git config --global user.email"yout@email"
+ssh  -key -t rsa -C"your@email.com" there times enter
+.ssh id_rsa.pub ctrl+C
+.ssh id_rsa.pubsettings ssh new sshkey ctrl+v
+return git ssh -T git@github.com     yes
+
+send fil 
+git init
+git add(.)
+git commit -m"zhushi"
+git remote add origin  https//github.com/user.name/...git
+gitpush -u origin master

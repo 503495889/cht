@@ -11,3 +11,7 @@ git add(.)
 git commit -m"zhushi"
 git remote add origin  https//github.com/user.name/...git
 gitpush -u origin master
+
+
+clone
+git clone https//github.com/user.name/file

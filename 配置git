@@ -134,3 +134,28 @@ mkdir：XX（创建一个空目录XX指目录名）
 
 要查看远程库的信息使用git remote
 要查看远程库的详细信息使用git remote -v
+
+
+ 1. 首先,检查你的起源是设定的运行
+                              git remote -v
+                           显示
+                         orgin    git@github.com:chaorwin/chaorwin.git (fetch)
+                         orgin    git@github.com:chaorwin/chaorwin.git (push)
+
+
+                          "origin" 不存在
+                       2.重命名它,或改变URL,删除它,然后添加正确的一个。
+                            git remote remove orgin
+
+                      3. 增加一个
+
+                            git remot add origin git@github.com:chaorwin/chaorwin.git
+
+                      4. git push origin master
+
+
+--------------------- 
+作者：chaorwin 
+来源：CSDN 
+原文：https://blog.csdn.net/chaorwin/article/details/51921294 
+版权声明：本文为博主原创文章，转载请附上博文链接！

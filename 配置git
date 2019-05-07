@@ -16,3 +16,25 @@ gitpush -u origin master
 
 clone
 git clone https//github.com/user.name/file
+  a. 创建一个本地分支
+    [ethan@ubuntu:minifs]$ git branch test
+  b. 将本地分支同步到GitHub上面: 这个时候你就可以在github看到一个新的分支
+    [ethan@ubuntu:minifs]$ git push origin test
+  c. 切换到新建立的分支： 
+    [ethan@ubuntu:minifs]$ git checkout test
+  d. 推送新的修改的新的分支
+    [ethan@ubuntu:minifs]$ git push -u origin test 
+
+
+- 删除
+  a. 从本地删除一个分支
+    [ethan@ubuntu:minifs]$ git branch -D test 
+  b.  同步到GitHub上面删除这个分支
+    [ethan@ubuntu:minifs]$ git push origin :test
+
+
+--------------------- 
+作者：ysxie1986 
+来源：CSDN 
+原文：https://blog.csdn.net/ysxie1986/article/details/73722537 
+版权声明：本文为博主原创文章，转载请附上博文链接！

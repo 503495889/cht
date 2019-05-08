@@ -152,3 +152,21 @@ mkdir：XX（创建一个空目录XX指目录名）
                             git remot add origin git@github.com:chaorwin/chaorwin.git
 
                       4. git push origin master
+
+
+
+cmd 快捷键
+shutdown -h的意思是：休眠本地计算机，执行该指令后计算机会立即休眠。-h参数可以和-f参数一起使用，但是不能和-t参数一起使用。也是就是说shutdown -h -t 3600这样的用法是错误的。
+
+shutdown -p关闭本地计算机，执行该指令后计算机会立即关闭，也不会等待默认的时间。
+
+shutdown -s表示关闭本地计算机，如果不使用-t参数的话，会倒计时默认的事件后关机，如果使用-t参数的话倒计时设置的时间后关机，例如shutdown -s -t 3600就是3600秒后关机。
+
+shutdown -r表示完全关闭并重启计算机。就理解为重启就行，同样的可以加-t设置倒计时多少时间后重启，例如shutdown -r -t 3600就是倒计时3600秒后重启，而shutdown -r -t 0就是倒计时0秒后重启，也就是立即重启。
+
+shutdown -a表示取消关机，或者取消重启。在shutdown -s或者shutdown -r倒计时结束之前执行shutdown -a可以取消关机或者重启操作。
+--------------------- 
+作者：蓝蓝223 
+来源：CSDN 
+原文：https://blog.csdn.net/qq_21808961/article/details/81180732 
+版权声明：本文为博主原创文章，转载请附上博文链接！

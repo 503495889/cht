@@ -167,6 +167,10 @@ md [盘符:\][路径\]新目录名，比如：md c:\test\myfolder
 创建文件的方式有多种，这里只介绍创建空文件和非空文件的最常用方法。首先是创建空文件，命令type nul>*.*；
 命令echo [fileContent]>*.*，如echo myname>a.txt
 删除文件，命令del *.*，如del myfile.txt
+cd .. 返回上一层                 返回根目录  cd \  后按回车
+分别执行cat或者type 1.txt 、cat 1.txt 2.txt 2条命令  读取文件
+touch 文件名
+start  +路径 打开一个文件
 shutdown -h的意思是：休眠本地计算机，执行该指令后计算机会立即休眠。-h参数可以和-f参数一起使用，但是不能和-t参数一起使用。也是就是说shutdown -h -t 3600这样的用法是错误的。
 
 shutdown -p关闭本地计算机，执行该指令后计算机会立即关闭，也不会等待默认的时间。

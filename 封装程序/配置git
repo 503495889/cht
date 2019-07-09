@@ -135,7 +135,6 @@ mkdir：XX（创建一个空目录XX指目录名）
 要查看远程库的信息使用git remote
 要查看远程库的详细信息使用git remote -v
 
-
  1. 首先,检查你的起源是设定的运行
                               git remote -v
                            显示

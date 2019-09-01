@@ -17,6 +17,7 @@ git pull
 git push -u origin master  
 
 
+
 下载文件
 git clone https // github.com / user.name / file
 

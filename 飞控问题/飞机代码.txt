@@ -1,0 +1,6 @@
+void (*restart)(void)是一个函数指针。
+(void (*)(void))0x0;将0x0这个地址强制转换为一个函数指针。
+因为一般的CPU，上电以后就是从0地址开始取址执行。
+如果你想搞个软件重启的话，定义void (*restart)(void)=(void (*)(void))0x0;以后。
+用这个restart();
+就可以跳到cpu上电后第一条指令地址开始执行，正如其名，restart，重启。
